@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Soumyabrato Bagchi | Presidency University</title>
+<style>
+  :root {
+    --primary: #1a365d;
+    --accent: #2b6cb0;
+    --light: #f7fafc;
+    --text: #2d3748;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    color: var(--text);
+    line-height: 1.6;
+    background: #fff;
+  }
+  header {
+    background: var(--primary);
+    color: white;
+    padding: 2.5rem 1.5rem 2rem;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+  }
+  header .subtitle {
+    font-size: 1.15rem;
+    opacity: 0.95;
+    margin-bottom: 0.8rem;
+  }
+  header .email a, header .scholar a {
+    color: #bee3f8;
+    text-decoration: none;
+  }
+  header .email a:hover, header .scholar a:hover { text-decoration: underline; }
+  nav {
+    background: #2c5282;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1.2rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+  }
+  nav a:hover, nav a.active {
+    background: rgba(255,255,255,0.15);
+  }
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem;
+  }
+  section {
+    margin-bottom: 3rem;
+    scroll-margin-top: 1rem;
+  }
+  section h2 {
+    color: var(--primary);
+    font-size: 1.6rem;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.2rem;
+  }
+  .profile-box {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    background: var(--light);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  .profile-photo {
+    width: 140px;
+    height: auto;
+    border-radius: 4px;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .qual-item, .pub-item, .exp-item {
+    margin-bottom: 1.4rem;
+  }
+  .qual-item strong, .pub-item strong, .exp-item strong {
+    color: var(--primary);
+  }
+  .pub-category {
+    font-weight: 600;
+    color: var(--accent);
+    margin: 1.5rem 0 0.6rem;
+    font-size: 1.1rem;
+  }
+  ul {
+    margin-left: 1.2rem;
+  }
+  li { margin-bottom: 0.4rem; }
+  footer {
+    background: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.9rem;
+  }
+  @media (max-width: 600px) {
+    .profile-box { flex-direction: column; align-items: center; text-align: center; }
+    header h1 { font-size: 1.7rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Dr. Soumyabrato Bagchi</h1>
+  <div class="subtitle">Assistant Professor (He/Him/His)<br>Department of Public Administration<br>Presidency University, Kolkata</div>
+  <div class="email">Official Email ID: <a href="mailto:soumyabrato@presiuniv.ac.in">soumyabrato@presiuniv.ac.in</a></div>
+  <div class="scholar" style="margin-top:0.4rem;">Google Scholar: <a href="https://scholar.google.com/citations?user=T0JkDa0AAAAJ&hl=en&authuser=2" target="_blank" rel="noopener">Profile</a></div>
+</header>
+
+<nav>
+  <a href="#home" class="active">Home</a>
+  <a href="#qualifications">Academic Qualifications</a>
+  <a href="#publications">Publications</a>
+  <a href="#experience">Experience</a>
+  <a href="#awards">Awards</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+<section id="home">
+  <div class="profile-box">
+    <img src="photo.jpg" alt="Dr. Soumyabrato Bagchi" class="profile-photo">
+    <div>
+      <h2 style="border:none; margin-bottom:0.6rem; font-size:1.4rem;">Academic Profile</h2>
+      <p>Doctor of Philosophy in Public Policy and Management, Indian Institute of Management Calcutta (2013–2020).</p>
+      <p style="margin-top:0.6rem;">Dissertation: “Organizational Memory and Workings of Village Panchayats in West Bengal: An Ethnographic Study”.</p>
+      <p style="margin-top:0.4rem;">Assistant Professor, Department of Public Administration, Presidency University, Kolkata.<br>3rd Campus, Dowhill, Kurseong, West Bengal.</p>
+    </div>
+  </div>
+</section>
+
+<section id="qualifications">
+  <h2>Academic Qualifications</h2>
+
+  <div class="qual-item">
+    <strong>Doctor of Philosophy in Public Policy and Management</strong><br>
+    Indian Institute of Management Calcutta, India<br>
+    Dissertation: “Organizational Memory and Workings of Village Panchayats in West Bengal: An Ethnographic Study”<br>
+    Duration: 2013-2020
+  </div>
+
+  <div class="qual-item">
+    <strong>Master of Science in Anthropology</strong><br>
+    University of Calcutta, West Bengal, India<br>
+    Class I, Rank 1<br>
+    Duration: 2009-2011
+  </div>
+
+  <div class="qual-item">
+    <strong>Bachelor of Science in Anthropology</strong><br>
+    University of Calcutta, West Bengal, India<br>
+    Class I, Rank 1<br>
+    Duration: 2006-2009
+  </div>
+</section>
+
+<section id="publications">
+  <h2>Publications: Academic</h2>
+
+  <div class="pub-category">Peer-Reviewed Articles</div>
+  <div class="pub-item">2024: [with Alison Brown, Bhaskar Chakrabarti, Peter Mackie, Crispian Fuller, Rajesh Bhattacharya, & Debapriya Chakrabarti] ‘Contested Spaces of Exchange: Informal Cross-Border Trade on the India–Bangladesh Border’, Forum for Development Studies, 51 (1): 121-143. DOI: https://doi.org/10.1080/08039410.2023.2255211 (Scopus Indexed, 2nd quartile)</div>
+  <div class="pub-item">2021: [with Bhaskar Chakrabarti] ‘Organizational forgetting in local governments: a study from rural India’, Journal of Organizational Ethnography, 10 (3): 289-302. DOI: https://doi.org/10.1108/JOE-11-2020-0049 (Scopus Indexed, 1st quartile)</div>
+
+  <div class="pub-category">Book Chapter</div>
+  <div class="pub-item">2024: [with Bhaskar Chakrabarti & Rituparna Das] Ignoring low-fee private schools in India. In Bidhan Kanti Das, Gorky Chakraborty, Abhijit Guha (eds.), Knowledge, Power and Ignorance: The Indian Context. NY: Routledge.</div>
+
+  <div class="pub-category">Book Reviews</div>
+  <div class="pub-item">2019: Bagchi, S. Review: Bangladesh: Reform Agenda for Local Governance by Tofail Ahmed. Commonwealth Journal of Local Governance, (21), Article ID 6519. DOI: https://doi.org/10.5130/cjlg.v0i21.6519</div>
+  <div class="pub-item">2017: Bagchi, S. Book Review: Exploring Marxist Bengal c.1971–2011: Memory, History, and Irony by Debraj Bhattacharya. Journal of Human Values, 23(2), 148-150. DOI: https://doi.org/10.1177/0971685817697748</div>
+</section>
+
+<section id="experience">
+  <h2>Research and Teaching Experience</h2>
+
+  <div class="exp-item">
+    <strong>Research Experience</strong><br>
+    Consultant Post-Doctoral Research Assistant, August 2020 – December 2021, GCRF Small Project: “Building Governance Capacity in Indian Border Towns”, Principal Investigator: Dr Alison Brown, Cardiff School of Geography and Planning, Cardiff University, UK
+  </div>
+
+  <div class="exp-item">
+    <strong>Teaching Experience</strong><br>
+    Assistant Professor, Vijay Patil School of Management, D Y Patil Deemed to be University, Navi Mumbai, Maharashtra, September 2022-2025<br>
+    Visiting Faculty, S P Jain Institute of Management and Research (SPJIMR), Mumbai, Maharashtra, July 2023-October 2023<br>
+    Visiting Faculty, Narsee Monjee Institute of Management Studies (NMIMS), Mumbai, Maharashtra, June 2023-August 2023<br>
+    Visiting/Guest Faculty, Indian Institute of Management Kozhikode, Kerala, India, July 25 & 26, 2022<br>
+    Visiting Faculty, Indian Institute of Management Calcutta, Kolkata, India (June 2022 – August 2022)
+  </div>
+</section>
+
+<section id="awards">
+  <h2>Awards & Recognitions</h2>
+  <ul>
+    <li>Qualified University Grants Commission (India)’s National Eligibility Test (NET) for Junior Research Fellowship (JRF) in 2012 in Anthropology</li>
+    <li>University First Rank, M.Sc. (Anthropology), University of Calcutta, 2011</li>
+    <li>University First Rank, B.Sc. (Anthropology), University of Calcutta, 2009</li>
+  </ul>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Official Email ID: <a href="mailto:soumyabrato@presiuniv.ac.in">soumyabrato@presiuniv.ac.in</a></p>
+  <p style="margin-top:0.6rem;">Google Scholar: <a href="https://scholar.google.com/citations?user=T0JkDa0AAAAJ&hl=en&authuser=2" target="_blank" rel="noopener">https://scholar.google.com/citations?user=T0JkDa0AAAAJ&hl=en&authuser=2</a></p>
+  <p style="margin-top:0.6rem;">Address: 3rd Campus, Dowhill, Kurseong, West Bengal.</p>
+</section>
+
+</main>
+
+<footer>
+  Dr. Soumyabrato Bagchi · Department of Public Administration · Presidency University
+</footer>
+
+</body>
+</html>
